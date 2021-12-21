@@ -165,6 +165,18 @@ input {
   clear: both;
   visibility: hidden;
 }
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-color: #333333;
+    --bg-color: #F7DEA5;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #fff;
+    --bg-color: #7b6f52;
+  }
+}
 @font-face {
   font-family: 'ChosunGs';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
@@ -175,7 +187,8 @@ body {
   font-family: ChosunGs;
   padding: 20px;
   text-align: center;
-  background-color: #F7DEA5;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 .home-view {
   max-width: 1240px;
