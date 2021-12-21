@@ -28,6 +28,11 @@ export default class Explanation implements View {
             el(".body", "카톡 클립은 본인 인증용으로 클립지갑으로 인절미를 절.대. 보내지 말 것"),
             el(".body", "클립은 다계정 방지를 위한 인증에만 쓰임"),
             el(".body", "자세한 일정은 트위터 참고"),
+            el(".footer", el(".sns",
+                el("a", { href: "https://twitter.com/tteokmill", target: "_blank" }, el("img", { src: "/images/icon/twitter.svg", height: "42px" })),
+                el("a", { href: "https://discord.gg/YgdruRMFtJ", target: "_blank" }, el("img", { src: "/images/icon/discord.svg", height: "42px" })),
+                el("a", { href: "https://open.kakao.com/o/g1nYzIHd", target: "_blank" }, el("img", { src: "/images/icon/kakaotalk.svg", height: "42px" })),
+            ), el("a", "떡방앗간.닷컴", { href: "https://tteok.org" }))
         ).appendTo(BodyNode);
     }
 

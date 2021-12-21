@@ -289,6 +289,15 @@ body {
 .explanation-view > .body {
   margin-top: 8px;
 }
+.explanation-view > .footer {
+  font-size: 0.875rem;
+}
+.explanation-view > .footer > .sns {
+  margin: 8px;
+}
+.explanation-view > .footer > .sns > a {
+  margin: 8px;
+}
 @keyframes rainbowLink {
   0% {
     color: red;
