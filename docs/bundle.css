@@ -205,7 +205,8 @@ body {
 .home-view > .input-container {
   margin-top: 16px;
 }
-.home-view > .input-container > label {
+.home-view > .input-container > .label {
+  margin-top: 4px;
   font-size: 0.75rem;
   color: red;
 }
