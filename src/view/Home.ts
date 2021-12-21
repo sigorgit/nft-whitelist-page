@@ -15,7 +15,7 @@ export default class Home implements View {
             el("h2", "☆개☆봉☆박☆두☆"),
             el("a", { href: "https://www.youtube.com/watch?v=bDFKiwtdBYs", target: "_blank" }, el("img", { src: "/images/comming-soon.svg", height: "256px" })),
             el(".overview", `참새들이 기다리고 기다리던 떡방앗간 NFT...\n가슴이 웅장해지는 그 NFT드디어 나온다.\n한 개 당 1천 절미다.\n1천 절미 없는 흑두루미 참새 없재?`),
-            el("input", { placeholder: "클립 주소 입력하면 됨" }),
+            el(".input-container", el("label", "🚨 카톡 클립은 본인 인증용으로 클립지갑으로 인절미를 절.대. 보내지 말 것 🚨"), el("input", { placeholder: "클립 주소 입력하면 됨" })),
             el("button", "화이트 리스트 신청 허기"),
             el("button", "떡방앗간 V2 로오오드맵", {
                 click: () => {
