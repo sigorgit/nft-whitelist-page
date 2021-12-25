@@ -8,9 +8,9 @@ export default class Explanation implements View {
     private interval: any;
 
     constructor() {
-        this.container = el(".explanation-view", el("h1", "떡방앗간.느프트"),
+        this.container = el(".explanation-view", el("h1", "떡방앗간 참새 NFT"),
             el("h2", "민팅가"),
-            el(".body", "1,000 인절미 a.k.a 1천 절미"),
+            el(".body", "1,000 인절미 a.k.a 천~절~미"),
             el("h2", "총 느프트 갯수"),
             el(".body", "10,000 개 a.k.a 1만개"),
             el(".body", "(1인당 10개 구매제한)"),
@@ -22,8 +22,8 @@ export default class Explanation implements View {
             el(".body", "클럽스 거래 수수료는 느트프 보유자가 받아감"),
             el("h2", "보유자 혜택"),
             el(".body", "💰 하드포크 이후 인절미 느프트 하나당 1천 절미 스테이킹과 같음 💰"),
-            el(".body", "🍡 판매로 모인 1천만 절미는 느프트 보유자에게 평생 떡고물 배분 🍡"),
-            el(".body", "💸 절미+클레이+곳간의 메이트에서 나오는 믹스 수령 가능 💸"),
+            el(".body", "🍡 판매로 모인 1천만 절미로 느프트 보유자에게 평생 떡고물 배분 🍡"),
+            el(".body", "💸 절미 + 딱풀의 클레이 + 곳간의 메이트 및 2차 거래시 나오는 믹스 수령 가능 💸"),
             el(".body", "🚜 메타버스 시고르 입장권으로 사용 🚜"),
             el(".body", "🏡 느프트 홀더에게 시고르 집 한채 줌 🏡"),
             el("h2", "주의사항"),
