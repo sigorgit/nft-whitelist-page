@@ -32,7 +32,7 @@ export default class Home implements View {
                     if (addr !== undefined) {
                         if (await TteokmillSparrowsWhitelistContract.added(addr) === true) {
                             alert("이미 신청함");
-                        } else {
+                        } else if (this.addrInput.domElement.value.trim() !== "") {
                             if (confirm(`${this.addrInput.domElement.value} 이거 맞지? 틀리면 못사`)) {
                                 await TteokmillSparrowsWhitelistContract.add(this.addrInput.domElement.value);
                                 alert("완료");
